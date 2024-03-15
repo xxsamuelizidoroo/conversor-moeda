@@ -1,0 +1,50 @@
+/* Define o estilo para o container principal */
+.converter {
+    display: flex; /* Utiliza o layout flexbox */
+    flex-direction: column; /* Alinha os itens em colunas */
+    align-items: center; /* entrailiza os itens horizontalmente */
+    padding: 2rem; /*Adicionacum espaçamento interno de 2rem */
+    border-radius: 10px; /*Adiciona bordas arredondadas com raio de 10px */
+    width: 400px; /* Define a largura fixa de 400px */
+    margin: 2rem auto; /* Centraliza horizontalmente o contéiner */
+    background-color: #f8f9fa; /* Define a cor de fundo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Define o estilo para título */
+.converter h2 {
+    color: #343a40; /*Defina a cor do texto */
+    font-size: 1.8rem; /* Define o tamanho da fonte */
+    margin-bottom: 2rem; /* Adiciona uma margem inferior de 2rem */
+}
+
+/* Define o estilo para os campos de entrada e seleção */
+.converter input,
+.converter select {
+    width: 100%; /* Faz com o que os elementos ocupem a largura total do contéiner */
+    padding: 0.7rem 1rem; /* Adiciona um espaçamento interno de 0.7rem na vertical e 1rem na horizontal */
+    box-sizing: border-box; /* Inclui o preenchimento e a borda na largura toal do elemento */
+    border-radius: 4px; /* Adiciona borda arredondadas com raio de 4px */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    color: #495057; /* Define a cor do texto */
+    background-color: #fff; /* Define a cor de fundo */
+    border: 1px solid #ced4da; /* Adiciona uma borda sólida de 1px com a cor #ced4da */
+}
+
+/* Define um estilo adicional para o campo de enetrada */
+.converter input {
+    margin-bottom: 30px; /* Adiciona uma margem inferior de 30 px */
+}
+
+/* Define o estilo para os elementos span e p */
+.converter span 
+.converter p {
+    margin: 0.5rem; /* Adiciona uma margem de 0,5rem */
+    font-size: 1rem; /*Define o tamanho da fonte */
+    color: #495057; /* Define a cor do texto */
+}
+
+/* Define um estilo adiional para o elemento p */
+.converter p {
+    font-size: 1.2rem; /* Define o tamanho da fonte maior */
+}
