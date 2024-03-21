@@ -43,6 +43,10 @@
     font-size: 1rem; /* Define o tamanho da fonte */
     color: #495057; /* Define a cor do texto */
    }
+   .converter h3 {
+    font-size: 2rem; /* Define o tamanho da fonte */
+    color: blue; /* Define a cor do texto */
+   }
    
    /* Define um estilo adicional para o elemento p */
    .converter p {
