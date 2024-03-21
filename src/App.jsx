@@ -1,12 +1,12 @@
 import './App.css'
-import CurrenyComponents from "./components/CurrencyComponents"
+import CurrenyConverter from "./components/CurrencyConverter"
 
 
 function App() {
  
   return (
     <>
-      <CurrenyComponents />
+      <CurrenyConverter />
     </>
   )
 }
